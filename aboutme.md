@@ -1,9 +1,9 @@
 ---
 layout: page
 title: About me
+css: /css/aboutme.css
 # subtitle: Why you'd want to go on a date with me
 ---
-
 <div id="aboutme-section">
 
 <p class="about-text">

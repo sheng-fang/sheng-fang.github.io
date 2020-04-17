@@ -14,7 +14,7 @@ bigimg: /img/cover_image/nasa_space.jpg
 </div>
 
 <div class="posts-list">
-  {% for post in site.tags.ml %}
+  {% for post in site.tags.algorithm %}
   <article>
     <a class="post-preview" href="{{ post.url | prepend: site.baseurl }}">
 	    <h2 class="post-title">{{ post.title }}</h2>
