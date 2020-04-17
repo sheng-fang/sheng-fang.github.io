@@ -2,8 +2,8 @@
 layout: post
 title: First post!
 # subtitle: 
-image: /img/hello_world.jpeg
-# tag: 
+# image: /img/avatar-icon.jpg
+tag: 
 # bigimg:
 ---
 

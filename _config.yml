@@ -72,19 +72,19 @@ social-network-links:
   # email: 
   # facebook: 
   github: sheng-fang
-  # twitter: daattali
+  # twitter: 
 #  reddit: yourname
   linkedin: sheng-fang
 #  xing: yourname
-#  stackoverflow: "3943160/daattali"
-#  snapchat: deanat78
-#  instagram: deanat78
-#  youtube: user/deanat78
-#  spotify: yourname
-#  telephone: +14159998888
-#  steam: deanat78
-#  twitch: yourname
-#  yelp: yourname
+#  stackoverflow: 
+#  snapchat: 
+#  instagram: 
+#  youtube: 
+#  spotify: 
+#  telephone: 
+#  steam: 
+#  twitch: 
+#  yelp: 
 
 # Select which share links to show in posts
 share-links-active:
@@ -183,6 +183,7 @@ defaults:
       layout: "post"
       comments: true  # add comments to all blog posts
       social-share: true # add social media sharing buttons to all blog posts
+      ext-js: "https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-MML-AM_CHTML"
   -
     scope:
       path: "" # all files
