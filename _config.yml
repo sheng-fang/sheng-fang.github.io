@@ -1,10 +1,10 @@
 # --- General options --- #
 
 # Name of website
-title: Home
+title: Tech Hive
 
 # Short description of your site
-description: A virtual proof that I'm awesome
+description: Tech honey tastes hard but good.
 
 # --- Local development options ---
 # If your website is hosted locally rather than on GitHub, then you need to uncomment the next two parameters to set the url and baseurl
@@ -22,6 +22,7 @@ description: A virtual proof that I'm awesome
 navbar-links:
   Blog: "blog"
   About Me: "aboutme"
+  Index: "tags"
   # Resources:
   #   - Beautiful Jekyll: "http://deanattali.com/beautiful-jekyll/"
   #   - Learn markdown: "http://www.markdowntutorial.com/"
@@ -162,11 +163,12 @@ date_format: "%B %-d, %Y"
 # --- Don't need to touch anything below here (but you can if you want) --- #
 
 # Output options (more information on Jekyll's site)
-timezone: "America/Vancouver"
+timezone: "Europe/Paris"
 markdown: kramdown
 highlighter: rouge
 permalink: /:year-:month-:day-:title/
-paginate: 5
+paginate: 3
+
 
 kramdown:
   input: GFM
