@@ -2,6 +2,10 @@
 _site
 .sass-cache
 .vagrant
+.Gemfile
+.Gemfile.lock
+.idea
+.jekyll-cache
 
 # general
 .DS_Store
