@@ -1,21 +1,22 @@
 ---
 layout: page
-title: AI Tech blog
+title: "Paper review"
 css: "/css/index.css"
-<!-- subtitle: This is where I will tell my friends way too much about me -->
-use-site-title: true
-bigimg: /img/cover_image/nasa_space.jpg
+subtitle: 3D vision
+bigimg: /img/cover_image/review.jpg
 ---
 
 <div class="list-filters">
-  <a href="/" class="list-filter filter-selected">Recent posts</a>
-  <a href="/machine_learning/machinelearning" class="list-filter">Machine learning</a>
-  <a href="/paper_review/paperreview" class="list-filter">Paper review</a>
-  <a href="/algorithm/algorithm" class="list-filter">Algorithm</a>
+  <a href="/index" class="list-filter">Back to Home</a>
+  <a href="/paper_review/classification" class="list-filter">Classification</a>
+  <a href="/paper_review/segmentation" class="list-filter">Segmentation</a>
+   <a href="/paper_review/3D_vision" class="list-filter filter-selected">3D vision</a>
+   <a href="/paper_review/others" class="list-filter">Others</a>
   <!-- <a href="/tags" class="list-filter">Index</a> -->
 </div>
+
 <div class="posts-list">
-  {% for post in site.tags.pinned %}
+  {% for post in site.tags.review_3d %}
   <article>
     <a class="post-preview" href="{{ post.url | prepend: site.baseurl }}">
 	    <h2 class="post-title">{{ post.title }}</h2>
@@ -37,5 +38,3 @@ bigimg: /img/cover_image/nasa_space.jpg
    </article>
   {% endfor %}
 </div>
-
-

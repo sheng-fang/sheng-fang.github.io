@@ -1,21 +1,20 @@
 ---
 layout: page
-title: "Paper review"
+title: "Machine learning"
 css: "/css/index.css"
-subtitle: Image segmentation
-bigimg: /img/cover_image/review.jpg
+subtitle: Tech notes 
+bigimg: /img/cover_image/peper.jpg
 ---
 
 <div class="list-filters">
   <a href="/index" class="list-filter">Back to Home</a>
-  <a href="/classification" class="list-filter">Classification</a>
-  <a href="/segmentation" class="list-filter filter-selected">Segmentation</a>
-   <a href="/3D_vision" class="list-filter">3D vision</a>
+  <a href="/machine_learning/models" class="list-filter">Learning model</a>
+  <a href="/machine_learning/optimization" class="list-filter">Optimization</a>
   <!-- <a href="/tags" class="list-filter">Index</a> -->
 </div>
 
 <div class="posts-list">
-  {% for post in site.tags.review_seg %}
+  {% for post in site.tags.ml %}
   <article>
     <a class="post-preview" href="{{ post.url | prepend: site.baseurl }}">
 	    <h2 class="post-title">{{ post.title }}</h2>
