@@ -3,7 +3,7 @@ layout: page
 title: "Machine learning"
 css: "/css/index.css"
 subtitle: Tech notes 
-bigimg: /img/cover_image/peper.jpg
+bigimg: /img/cover_image/robot.jpg
 ---
 
 <div class="list-filters">

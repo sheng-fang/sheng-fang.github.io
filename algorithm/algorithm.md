@@ -3,7 +3,7 @@ layout: page
 title: "Computer science algorithm"
 css: "/css/index.css"
 subtitle: Algorithm and Data structure
-bigimg: /img/cover_image/nasa_space.jpg
+# bigimg: /img/cover_image/nasa_space.jpg
 ---
 
 <div class="list-filters">
