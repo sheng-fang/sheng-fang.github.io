@@ -142,7 +142,7 @@ Let’s focus on the following 2 questions:
 
 Let’s first answer the second question. We recall the update value for SGD and Adam:<br>
 
-   Adam: $\eta^{Adam}_t = \alpha * m_t / (\sqrt{V_t} + \epsilon)$
+   Adam: $\eta^{Adam}_t = \alpha_{Adam} * m_t / (\sqrt{V_t} + \epsilon)$
 
    SGD: $\eta^{SGD}_t = \alpha_{SGD} * g_t$
 
