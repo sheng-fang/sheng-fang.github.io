@@ -142,9 +142,9 @@ Let’s focus on the following 2 questions:
 
 Let’s first answer the second question. We recall the update value for SGD and Adam:<br>
 
-$\eta^{Adam}_t = \alpha * m_t / (\sqrt{V_t} + \epsilon)$<br>
+   Adam: $\eta^{Adam}_t = \alpha * m_t / (\sqrt{V_t} + \epsilon)$
 
-$\eta^{SGD}_t = \alpha_{SGD} * g_t$
+   SGD: $\eta^{SGD}_t = \alpha_{SGD} * g_t$
 
 We would like the SGD can at least update the parameters as Adam does. For this purpose, we project the Update Value of SGD ($UV_{SGD}$) to the direction of the update value of Adam ($UV_{ADAM}$). We have to ensure the projection of $UV_{SGD}$ on the direction of $UV_{ADAM}$ has the same value as $UV_{ADAM}$.
 
