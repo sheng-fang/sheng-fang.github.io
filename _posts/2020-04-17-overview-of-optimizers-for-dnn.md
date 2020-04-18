@@ -112,7 +112,48 @@ Image 2 and 3 [1] are the contour maps with local minimum in the middle. The lin
 
 Now, we have reviewed most of the optimizers for DNN with an intuitive perspective. Some practitioners consider the optimizers like Adam, SGD with momentum, etc. are the SGD with learning rate scheduler. My opinion is Yes and No. Scheduled learning rate can have the same effect as SGD with momentum, but it can't update parameters with different learning rates.
 
-For new practitioners, it's recommended to use Adam. But why more and more researchers use SGD with momentum and with scheduled learning rate in their paper? What's wrong with Adam? How can we use SGD with momentum to achieve better performance? Please check the Part 2 of this story.
+
+# 3. Adam or SGD? 
+For new practitioners, it's recommended to use Adam, which gives a good performance. Adam has an adaptive learning rate and is good at learning the representation of sparse data. But why lots of researchers still use SGD with momentum and with scheduled learning rate in their paper? What's wrong with Adam? How can we use SGD with momentum to achieve better performance? 
+
+## 3-1. What’s wrong with Adam?
+### Problem 1: unconvergence
+Paper [5] proves Adam could cause the unconvergence of the model in some case. Let’s check the details of the convergence when using different optimizers.
+In the method of SGD with first order momentum, the learning rate is fixed. When the model is converging, the update value becomes close to 0.
+For AdaDelta/RMSProp and Adam, the fluctuation of second order momentum can cause the unstable of the model. So the paper proposes to filter the second order momentum as follow:
+
+$V_t = max(\beta_2 * V_{t-1} + (1-\beta_2) * g_t^2, V_{t-1})$ {: .center-block :}
+
+In this case, the update value shows a general decreasing tendency.
+
+### Problem 2: Local minimum
+In the paper[6], the authors did experiments on CIFAR-10 database. Adam converges quicker than SGD, but the SGD has a better performance. Their conclusion is: The update value of Adam is too small to converge to global minimun at the end of training.
+
+## 3-2. How to get better performance?
+Adam and SGD, which one is better? It’s hard to say.
+
+Although the convergence speed of Adam is high at the beginning of training, the experts prefer to use SGD or combine Adam and SGD because Adam may cause the model to be unstable or to converge to local minimum at the end of training. The authors of paper[6] recommend to use Adam at first for the quick convergence and use SGD to fine tune the model.
+
+### How can we combine Adam and SGD? 
+
+Let’s focus on the following 2 questions:
+1. When to switch from Adam to SGD?
+2. What learning rate should we use for SGD when switching from Adam?
+
+Let’s first answer the second question. We recall the update value for SGD and Adam:<br>
+
+$\eta^{Adam}_t = \alpha * m_t / (\sqrt{V_t} + \epsilon)$
+
+$\eta^{SGD}_t = \alpha_{SGD} * g_t$
+
+We would like the SGD can at least update the parameters as Adam does. For this purpose, we project the Update Value of SGD ($UV_{SGD}$) to the direction of the update value of Adam ($UV_{ADAM}$). We have to ensure the projection of $UV_{SGD}$ on the direction of $UV_{ADAM}$ has the same value as $UV_{ADAM}$.
+
+$proj(\eta^{SGD}) = \eta^{Adam}$ 
+
+According to this equation, we can calculate learning rate α of SGD. The authors add exponential average filter to the learning rate for a more stable value, marked as $\lambda$.
+With the help of $\alpha$ and $\lambda$, let’s answer the first question: when to switch from Adam to SGD. As the authors mention in the paper, **when the absolute difference between $\alpha$ and $\lambda$ is smaller than a threshold. It’s time to switch**.
+
+
 
 
 # Reference:

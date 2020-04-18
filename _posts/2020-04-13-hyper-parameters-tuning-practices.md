@@ -3,7 +3,7 @@ layout: post
 title: "Hyper-parameters tuning practices: learning rate, batch size, momentum, and weight decay"
 # subtitle:  
 # image: /img/avatar-icon.jpg
-tag: [ml, ml_optimization, pinned]
+tag: [ml, ml_optimization]
 # bigimg:
 ---
 
