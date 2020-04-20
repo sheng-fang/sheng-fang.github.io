@@ -3,7 +3,7 @@ layout: post
 title: "Overview of optimizers for DNN: when and how to choose which optimizer"
 # subtitle: 
 # image: /img/avatar-icon.jpg
-tag: [ml, ml_optimization, pinned]
+tag: [ml, ml_optimization, selected]
 # bigimg:
 ---
 
