@@ -20,7 +20,7 @@ In this post, *I would like to review the development* of optimization methods f
 
 
 # 1. Intuitive perspective of optimization
-The goal of the optimization of *DNN* is to find the best parameters w to minimize the loss function $f(w, x, y)$, using $$f(w)$$ bellow for simplification, subject to $x, y$, where $$x$$ are the data and $$y$$ are the labels. The gradient descent (*GD*) is the most frequently used optimization method for machine learning. In this method, we need another parameter called learning rate, $\alpha$.
+The goal of the optimization of *DNN* is to find the best parameters w to minimize the loss function $f(w, x, y)$, using $f(w)$ bellow for simplification, subject to $x, y$, where $x$ are the data and $y$ are the labels. The gradient descent (*GD*) is the most frequently used optimization method for machine learning. In this method, we need another parameter called learning rate, $\alpha$.
 
 Now we start the process of gradient descent, at each batch/step t:
 1. Calculate the gradient of each parameter: $g_t = \bigtriangledown f(w_t)$
