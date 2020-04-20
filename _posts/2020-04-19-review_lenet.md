@@ -3,7 +3,7 @@ layout: post
 title: "Review of LeNet-5"
 # subtitle: 
 # image: /img/avatar-icon.jpg
-tag: [review, classification, pinned]
+tag: [review, review_cls, pinned]
 # bigimg:
 ---
 

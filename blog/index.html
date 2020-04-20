@@ -1,21 +1,21 @@
 ---
 layout: page
-title: Hi, I'm Sheng
-subtitle: Welcome to my blog about AI, Algorithm and more.
+title: AI Tech blog
 css: "/css/index.css"
+<!-- subtitle: This is where I will tell my friends way too much about me -->
 use-site-title: true
 bigimg: /img/cover_image/nasa_space.jpg
 ---
 
 <div class="list-filters">
-  <a href="/" class="list-filter filter-selected">Selected posts</a>
+  <a href="/" class="list-filter filter-selected">Recent posts</a>
   <a href="/machine_learning/machinelearning" class="list-filter">Machine learning</a>
   <a href="/paper_review/paperreview" class="list-filter">Paper review</a>
   <a href="/algorithm/algorithm" class="list-filter">Algorithm</a>
   <!-- <a href="/tags" class="list-filter">Index</a> -->
 </div>
 
-<div class="posts-list">
+<!-- <div class="posts-list">
   {% for post in site.tags.pinned %}
   <article>
     <a class="post-preview" href="{{ post.url | prepend: site.baseurl }}">
@@ -38,8 +38,8 @@ bigimg: /img/cover_image/nasa_space.jpg
    </article>
   {% endfor %}
 </div>
+ -->
 
-<!-- 
 <div class="posts-list">
   {% for post in paginator.posts %}
   <article class="post-preview">
@@ -74,7 +74,7 @@ bigimg: /img/cover_image/nasa_space.jpg
       </div>
     </div>
 
-    {% if post.tags.size > 0 %}
+    <!-- {% if post.tags.size > 0 %}
     <div class="blog-tags">
       Tags:
       {% if site.link-tags %}
@@ -85,7 +85,7 @@ bigimg: /img/cover_image/nasa_space.jpg
         {{ post.tags | join: ", " }}
       {% endif %}
     </div>
-    {% endif %}
+    {% endif %} -->
 
    </article>
   {% endfor %}
@@ -104,4 +104,4 @@ bigimg: /img/cover_image/nasa_space.jpg
   </li>
   {% endif %}
 </ul>
-{% endif %} -->
+{% endif %}
