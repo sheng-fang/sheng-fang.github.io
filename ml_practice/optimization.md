@@ -2,19 +2,19 @@
 layout: page
 title: "Machine learning"
 css: "/css/index.css"
-subtitle: Tech notes 
+subtitle: Optimization
 bigimg: /img/cover_image/ml.jpg
 ---
 
 <div class="list-filters">
   <a href="/index" class="list-filter">Back to Home</a>
-  <a href="/machine_learning/models" class="list-filter">Learning model</a>
-  <a href="/machine_learning/optimization" class="list-filter">Optimization</a>
+  <a href="/ml_practice/models" class="list-filter">Models</a>
+  <a href="/ml_practice/optimization" class="list-filter filter-selected">Optimization</a>
   <!-- <a href="/tags" class="list-filter">Index</a> -->
 </div>
 
 <div class="posts-list">
-  {% for post in site.tags.ml %}
+  {% for post in site.tags.opt_practice %}
   <article>
     <a class="post-preview" href="{{ post.url | prepend: site.baseurl }}">
 	    <h2 class="post-title">{{ post.title }}</h2>

@@ -75,6 +75,13 @@ In the domain of research of machine learning, we always mention the three key a
 
 We should also consider these factors in our own products.
 
+## 5. Conclusion
+In this post, I shared my understanding of how to design a neural network. I believe it's helpful in the practice of implementing and modifying a CNN.<br>
+To sum up:
+1. Check the computational capacity, available database, technical support before start a machine learning project.
+2. Once the project starts, try to get the prior knowledge about the project as much as possible.
+3. Use these knowledge to design your own network.
+
 ## Reference
 <a id="1">[1]</a> 
 LeCun, Yann and Bottou, Léon and Bengio, Yoshua and Haffner, Patrick &nbsp;

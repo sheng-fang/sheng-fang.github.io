@@ -14,7 +14,7 @@ Currently the <strong>Chief Research Scientist</strong> at <a href="https://www.
 <span class="fa fa-graduation-cap about-icon"></span>
 Obtained my Ph.D. in <strong>Robotic and AI</strong> from the Sorbonne Université (supervised by Prof. <a href="http://www.isir.upmc.fr/?op=view_profil&lang=fr&id=7" target="_blank">Catherine ACHARD</a>) at the laboratory <a href="http://www.isir.upmc.fr/">ISIR</a>. My research focuses on applying <strong>computer vision and machine learning</strong> on social science research to understand the human-human interaction. Social interaction features are firstly extracted with the techniques of computer vision and speech processing. Then, machine learning models are used to <strong>analyse</strong> the features, <strong>prove</strong> our hypotheses, and <strong>interpret</strong> the social interaction.<br/>
 
-Before my Ph.D., I got my 1st MSc of Computer vision and machine learning from Zhejiang University, China and the 2nd MSc of Computer science and network from Telecom-Paris, France. <br/>
+Before my Ph.D., I got my first MSc of Computer vision and machine learning from Zhejiang University, China and the second MSc of Computer science and network from Telecom-Paris, France. <br/>
 <br/>
 Ph.D. thesis:<br/>
 
