@@ -11,7 +11,7 @@ bigimg: /img/cover_image/review.jpg
   <a href="/paper_review/classification" class="list-filter">Classification</a>
   <a href="/paper_review/detection" class="list-filter">Detection</a>
   <a href="/paper_review/segmentation" class="list-filter filter-selected">Segmentation</a>
-  <a href="/paper_review/3D_vision" class="list-filter">3D vision</a>
+  <!-- <a href="/paper_review/3D_vision" class="list-filter">3D vision</a> -->
   <a href="/paper_review/others" class="list-filter">Others</a>
   <!-- <a href="/tags" class="list-filter">Index</a> -->
 </div>
