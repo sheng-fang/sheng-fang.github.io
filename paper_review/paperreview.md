@@ -9,6 +9,7 @@ bigimg: /img/cover_image/review.jpg
 <div class="list-filters">
   <a href="/index" class="list-filter">Back to Home</a>
   <a href="/paper_review/classification" class="list-filter">Classification</a>
+  <a href="/paper_review/detection" class="list-filter">Detection</a>
   <a href="/paper_review/segmentation" class="list-filter">Segmentation</a>
   <a href="/paper_review/3D_vision" class="list-filter">3D vision</a>
   <a href="/paper_review/others" class="list-filter">Others</a>
