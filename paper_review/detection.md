@@ -2,7 +2,7 @@
 layout: page
 title: "Paper review"
 css: "/css/index.css"
-subtitle: Image segmentation
+subtitle: Object detection
 bigimg: /img/cover_image/review.jpg
 ---
 
