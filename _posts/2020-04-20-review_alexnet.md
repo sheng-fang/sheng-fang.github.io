@@ -59,7 +59,7 @@ In the implementation of dropout in AlexNet, they use all the neurons but multip
 
 ## 4. Process of learning
 
-Optimizer: SGD with momentum ($\beta = 0.9$) amd learning rate decay of 0.0005.
+Optimizer: SGD with momentum ($\beta = 0.9$), weight decay of 0.0005.
 
 ## 5. Conclusion
 This post gives a quick review of AlexNet. The most important contributions AlexNet made is:
