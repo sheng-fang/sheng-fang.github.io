@@ -12,7 +12,7 @@ To reproduce a deep neural network model, I have to get clear of three important
 2. Loss function
 3. Training practices
 
-Because YOLO V3 technical report[[3]](#3) does not explain very clear about the network and loss function, I talk my experiences about these 2 elements.
+Because YOLO V3 technical report[[3]](#3) is very clear about the network and loss function, I talk about my experiences of these 2 elements.
 
 ## 2. Network Architecture
 Image 1[[4]](#4) shows clearly the structure of YOLO V3 network.
