@@ -8,7 +8,7 @@ bigimg: /img/cover_image/coding.jpg
 
 <div class="list-filters">
   <a href="/index" class="list-filter">Back to Home</a>
-  <a href="/coding/skills" class="list-filter">Skills</a>
+  <a href="/coding/skill" class="list-filter">Skills</a>
   <a href="/coding/algorithm" class="list-filter">Algorithm</a>
   <!-- <a href="/tags" class="list-filter">Index</a> -->
 </div>
