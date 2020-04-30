@@ -1,15 +1,15 @@
 ---
 layout: page
-title: "Computer science algorithm"
+title: "Coding"
 css: "/css/index.css"
 subtitle: Algorithm and Data structure
-bigimg: /img/cover_image/algorithm.jpg
+bigimg: /img/cover_image/coding.jpg
 ---
 
 <div class="list-filters">
   <a href="/index" class="list-filter">Back to Home</a>
-  <!-- <a href="/machinelearning" class="list-filter">Machine learning</a> -->
-  <!-- <a href="/paperreview" class="list-filter">Paper review</a> -->
+  <a href="/coding/skills" class="list-filter">Skills</a>
+  <a href="/coding/algorithm" class="list-filter filter-selected">Algorithm</a>
   <!-- <a href="/tags" class="list-filter">Index</a> -->
 </div>
 
