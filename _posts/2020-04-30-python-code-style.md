@@ -11,7 +11,7 @@ tag: [coding, coding_skill]
 I started coding 15 years ago. During this 15 years, I spent most of the time in the academic domain. No one forces me to follow the coding style. Although I learned some small skills fo coding sometimes, it's not systematical. Now I would like to study the coding style of Python and note the points  in the post. The main references are Pep 8 Python Style[[1]](#1) and Google Python Style[[2]](#2).
 
 # 2. Consistency
-**One of Guido's key insights is that code is read much more often than it is written. **
+**One of Guido's key insights is that code is read much more often than it is written.**
 
 # 3. Code-layout
 ## 3-1. Indentation
@@ -83,6 +83,8 @@ import sys
 
 # 4. Whitespace in Expressions and Statements
 **Avoid** extraneous whitespace in the following situations:
+
+
 **Immediately inside parentheses, brackets or braces**
 ```python
 # Correct:
