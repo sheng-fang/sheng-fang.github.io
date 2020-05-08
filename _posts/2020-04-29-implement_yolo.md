@@ -17,7 +17,7 @@ Because YOLO V3 technical report[[3]](#3) is very clear about the network and lo
 ## 2. Network Architecture
 Image 1[[4]](#4) shows clearly the structure of YOLO V3 network.
 
-![yolo](/img/post_img/2020-04-29-implement_yolo/yolo_architecture.png) {: .center-block:}
+![yolo](/img/post_img/2020-04-29-implement_yolo/yolo_architecture.png) {: .center-block :}
 
 <p align="center"> Image 1: Architecture of YOLO V3 network</p>
 
