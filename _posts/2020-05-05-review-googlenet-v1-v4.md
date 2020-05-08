@@ -152,6 +152,14 @@ Generally speaking:
 
 
 # 6. Conclusion
+The key contribution of Inception Network:
+1. Filter the same region with different kernel, then concatenate all features
+2. Introduce bottleneck as dimension reduction to reduce the computation
+3. Introduce Batch Normalization
+4. Make network more efficient by using small kernel and asymmetric kernel
+5. Label smoothing
+6. Some important engineering experiences
+7. Inception-ResNet
 
 
 
