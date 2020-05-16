@@ -3,7 +3,7 @@ layout: post
 title: "Comparison of loss functions of YOLO, SSD, RetinaNet"
 # subtitle: 
 # image: /img/avatar-icon.jpg
-tag: [practice, model_practice]
+tag: [practice, opt_practice]
 # bigimg:
 ---
 
