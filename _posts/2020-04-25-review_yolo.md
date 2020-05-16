@@ -69,8 +69,8 @@ The loss function of YOLO is composed of the squared error of localization of bo
 
 1. $\lambda_{coord} \sum_{i=0}^{S^2} \sum^B_{j=0} \mathbb{1}_{ij}^{obj} [(x_i - \hat{x_i})^2 + (y_i - \hat{y_i})^2]$
 2. $\lambda_{coord} \sum_{i=0}^{S^2} \sum^B_{j=0} \mathbb{1}_{ij}^{obj} [(\sqrt{w_i} - \sqrt{\hat{w_i}})^2 + (\sqrt{h_i} - \sqrt{\hat{h_i}})^2]$ 
-3. $\sum_{i=0}^{S^2} \sum^B_{j=0} (C_i - \hat{C_i})^2$
-4. $\lambda_{noobj} \sum_{i=0}^{S^2} \sum^B_{j=0} \mathbb{1}_{ij}^{obj} (C_i - \hat{C_i})^2$
+3. $\sum_{i=0}^{S^2} \sum^B_{j=0} \mathbb{1}_{ij}^{obj} (C_i - \hat{C_i})^2$
+4. $\lambda_{noobj} \sum_{i=0}^{S^2} \sum^B_{j=0} \mathbb{1}_{ij}^{noobj} (C_i - \hat{C_i})^2$
 5. $\sum_{i=0}^{S^2} \sum_{c \in classes} \mathbb{1}_{i}^{obj} (p_i(c) - \hat{p_i}(c))^2$
 
 where $$\mathbb{1}_{i}^{obj}$$ denotes if object appears in cell $i$ and $\mathbb{1}_{i}^{obj}$ means the $j$th bounding box predictor in cell $i$ is in charge of the predicting. $$\lambda_{coord}$$ and $$\lambda_{noobj}$$ is used to remedy the problem of imbalanced data, because there are more cells without object than cells with objects. In the paper, $$\lambda_{coord} = 5$$ and $$\lambda_{noobj} = 0.5$$
