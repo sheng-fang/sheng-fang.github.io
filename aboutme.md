@@ -8,7 +8,12 @@ css: /css/aboutme.css
 
 <p class="about-text">
 <span class="fa fa-briefcase about-icon"></span>
-Currently the <strong>Chief Research Scientist</strong> at <a href="https://www.flyinstinct.com/">Flyinstinct</a>, a tiny startup works on the industrial 4.0 solution with machine learning and computer vision. 
+
+From 2022 to 2025, I worked at <a href="https://monk.ai/">Monk AI</a> (acquired by <a href="https://www.acvauctions.com/">ACV Auctions</a>), as a machine learning lead to deliver automatic vehicle inspection service (performance up 90%). I also created client-oriented LLM and RankSys applications to give better system performance.
+
+Previously, I worked at <a href="https://www.unissey.com/en">Unissey</a>, a French startup, focused on facial biometrics solution for seamless remote identity verification. 
+
+At early stage of my professional career, I worked at <a href="https://www.flyinstinct.com/">Flyinstinct</a> and led a team to deliver airport security related digital platform, including computer vision based runway inspection service and data management service.
 
 <p class="about-text">
 <span class="fa fa-graduation-cap about-icon"></span>
